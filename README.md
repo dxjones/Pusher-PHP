@@ -53,7 +53,7 @@ On failed requests, this will return the server's response, instead of false.
 JSON format
 -----------
 
-If your data is already encoded in JSON format, you can avoid a second encoding step by setting the sixth argument true, like so:
+If your data is already encoded in JSON format, you can avoid a second encoding step by setting the sixth argument to true, like so:
 
 	$pusher->trigger('my-channel', 'event', 'data', null, false, true)
 
